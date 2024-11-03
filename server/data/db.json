@@ -1,0 +1,54 @@
+{
+  "cards": [
+    {
+      "id": 2,
+      "text": "add text",
+      "color": "#b20070"
+    },
+    {
+      "id": 3,
+      "text": "add te",
+      "color": "#41b497"
+    },
+    {
+      "id": 4,
+      "text": "add text",
+      "color": "#57086d"
+    },
+    {
+      "id": 5,
+      "color": "purple",
+      "text": "add text"
+    },
+    {
+      "text": "hello",
+      "color": "#98b950",
+      "id": 6
+    },
+    {
+      "text": "awertyujknb",
+      "color": "#0d0c0c",
+      "id": 9
+    }
+  ],
+  "colors": [
+    "red",
+    "blue",
+    "#009451",
+    "yellow",
+    "purple",
+    "orange",
+    "#e499e4",
+    "black",
+    "#431eb3",
+    " #4cc844",
+    "turquoise",
+    "gold",
+    "#b20070",
+    "silver",
+    "lilac",
+    "white",
+    "#8f3d3d",
+    "#a83838"
+  ]
+}

@@ -1,0 +1,97 @@
+.card {
+    position: relative;
+    width: 220px;
+    height: 150px;
+    background-color: var(--card-color);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    p {
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    .card-actions {
+        position: absolute;
+        bottom: 10px;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+
+        .circle-icon,
+        .delete-icon {
+            cursor: pointer;
+            color: white;
+        }
+
+        .circle-icon {
+            color: var(--card-color);
+            border: 1.5px solid white;
+            border-radius: 50%;
+            padding: 4px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 15px;
+            height: 15px;
+        }
+
+    }
+
+    input {
+        background-color: inherit;
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        border-radius: 4px;
+        padding: 8px;
+        font-size: 16px;
+        outline: none;
+        transition: border-color 0.3s;
+    }
+
+
+    input:focus {
+        border-color: white;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    }
+    .color-platte {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+        gap: 5px; 
+        background-color: rgba(0, 0, 0, 0.8); 
+        border-radius: 10px; 
+        padding: 10px; 
+        z-index: 10; 
+        width: 160px; 
+        height: auto; 
+
+    }
+    
+    
+    .color-swatch {
+        width: 30px; 
+        height: 30px; 
+        border-radius: 50%;
+        margin: 5px; 
+        cursor: pointer; 
+        border: 2px solid white; 
+    }
+    
+}
